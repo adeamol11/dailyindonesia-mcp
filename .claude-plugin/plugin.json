@@ -1,0 +1,11 @@
+{
+  "name": "dailyindonesia",
+  "version": "1.0.0",
+  "description": "Indonesia travel data from DailyIndonesia: live airport boards, things to do, restaurants, destinations and eSIMs (read-only MCP server).",
+  "author": { "name": "DailyIndonesia", "email": "contact@dailyindonesia.com", "url": "https://dailyindonesia.com" },
+  "homepage": "https://dailyindonesia.com/developers/",
+  "repository": "https://github.com/adeamol11/dailyindonesia-mcp",
+  "license": "MIT",
+  "keywords": ["indonesia", "bali", "travel", "flights", "restaurants", "mcp"],
+  "mcpServers": { "dailyindonesia": { "type": "http", "url": "https://dailyindonesia.com/mcp" } }
+}

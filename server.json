@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.dailyindonesia/travel",
+  "title": "DailyIndonesia travel",
+  "description": "Live Indonesian airport boards, things to do, restaurants, destinations and eSIMs (read-only).",
+  "version": "1.0.0",
+  "websiteUrl": "https://dailyindonesia.com/developers/",
+  "repository": {
+    "url": "https://github.com/adeamol11/dailyindonesia-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dailyindonesia.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "dailyindonesia-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

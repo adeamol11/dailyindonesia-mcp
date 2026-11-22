@@ -1,0 +1,20 @@
+{
+  "name": "dailyindonesia-mcp",
+  "version": "1.0.0",
+  "description": "DailyIndonesia travel data for apps and AI agents: live Indonesian airport arrivals and departures, things to do, restaurants, destinations and eSIMs. SDK, CLI and MCP server (stdio bridge to https://dailyindonesia.com/mcp).",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "bin": { "dailyindonesia": "bin/dailyindonesia.js", "dailyindonesia-mcp": "bin/dailyindonesia-mcp.js" },
+  "files": ["index.js", "index.d.ts", "bin", "skills", "server.json", "README.md", "AGENTS.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "model-context-protocol", "indonesia", "bali", "travel", "flights", "flight-status", "airport", "restaurants", "things-to-do", "esim", "ai-agents", "cli", "sdk"],
+  "homepage": "https://dailyindonesia.com/developers/",
+  "repository": { "type": "git", "url": "git+https://github.com/adeamol11/dailyindonesia-mcp.git" },
+  "bugs": { "url": "https://github.com/adeamol11/dailyindonesia-mcp/issues", "email": "contact@dailyindonesia.com" },
+  "author": "DailyIndonesia <contact@dailyindonesia.com> (https://dailyindonesia.com)",
+  "license": "MIT",
+  "mcpName": "com.dailyindonesia/travel",
+  "scripts": { "test": "node test.js" }
+}
