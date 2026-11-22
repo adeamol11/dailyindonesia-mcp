@@ -1,2 +1,7 @@
 node_modules/
 *.tgz
+# Never commit private keys or registry tokens
+*.pem
+key.*
+.mcpregistry_*
+mcp-publisher*
